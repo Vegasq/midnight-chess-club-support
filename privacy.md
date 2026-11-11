@@ -1,6 +1,6 @@
 # Midnight Chess Club Privacy Policy
 
-Effective 11 November 2026. This policy describes the currently released game. Features being prepared for a future release are not presented as available.
+Effective 11 November 2026. This policy describes version 0.19 and the matching hosted service. Earlier installed development builds may not offer all controls described below.
 
 Midnight Chess Club stores your game progress on your device and sends some information to our servers when connected. Campaign and Vs AI can continue without a server connection; their gameplay records are queued locally and uploaded when a connection is available. Offline play therefore does not mean that those records will never leave your device.
 
@@ -55,9 +55,13 @@ Server-side profile, game and statistics records are persistent, and the current
 
 You can change local preferences, choose the information in your display name, use the offline game modes without an active connection, and delete a local save slot through its confirmation flow. Queued campaign and Vs AI records can still be uploaded if that save reconnects later. The current game has no separate switch that disables those uploads while keeping the same save online.
 
-Deleting a local save does not send a server-deletion request. It also does not reset device-wide achievements or avatar unlocks, or erase records held by an independent platform service. Removing the app or clearing browser storage likewise does not by itself remove server records.
+Settings > **Delete profile & server data** and the save-slot Delete action open a confirmation naming the selected profile. **Remove from this device** removes only that local save. **Delete profile & server data** also sends an authenticated request to erase the server profile, its campaign records, related multiplayer rooms and uploaded gameplay/statistics records. Other players keep progression they already earned.
 
-Contact **chess@mkla.dev** about access, correction or deletion of information held by us. We may need information to verify that a request concerns your profile. An in-game server-account deletion flow is not currently available. Requests involving platform-owned data must also follow that platform's account controls.
+The server-deletion choice first saves a pending request locally and stops that profile from playing or uploading more records. If offline or the service is unavailable, the request remains pending and can be retried; keep the app and its stored data until confirmation. Other save slots remain usable. After server confirmation, the local profile is removed. Minimal one-way hashes of the generated profile identifier and credential remain on the server to prevent copied credentials or stale queued uploads from recreating the deleted identity.
+
+Neither choice resets device-wide achievements or avatar unlocks, or erases records held by an independent platform service. Removing the app or clearing browser storage does not by itself remove server records and can remove a deletion request that has not yet completed. The in-game endpoint does not erase separately retained hosting logs or historical operational backups; those copies may remain, and current storage has no automatic expiry. Contact support about those records. A backup must not be restored into active service without reapplying later erasures and revocations.
+
+Contact **chess@mkla.dev** about access, correction or deletion of information held by us. We may need information to verify that a request concerns your profile. Requests involving platform-owned data must also follow that platform's account controls.
 
 ## Children and age suitability
 
