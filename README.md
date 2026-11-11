@@ -8,4 +8,4 @@ Public support information for Midnight Chess Club. This repository contains pub
 
 Please email support. Do not publish save files, profile credentials, room codes, personal information or diagnostic reports in a public issue.
 
-The policy describes released behavior. New features are documented when available. Pages is published from the main branch, repository root.
+The policy describes released behavior. New features are documented when available. GitHub Pages is configured for the main branch and repository root. Until its initial deployment is verified, use the working GitHub links above.
