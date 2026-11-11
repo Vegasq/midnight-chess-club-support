@@ -4,7 +4,7 @@ Effective 11 November 2026. This policy describes the currently released game. F
 
 Midnight Chess Club stores your game progress on your device and sends some information to our servers when connected. Campaign and Vs AI can continue without a server connection; their gameplay records are queued locally and uploaded when a connection is available. Offline play therefore does not mean that those records will never leave your device.
 
-For privacy questions or requests, contact **[chess@mkla.dev](mailto:chess@mkla.dev)**. Midnight Chess Club is developed by Mykola Yakovliev. Our support page is **[Midnight Chess Club Support](https://vegasq.github.io/midnight-chess-club-support/)**.
+For privacy questions or requests, contact **[chess@mkla.dev](mailto:chess@mkla.dev)**. Midnight Chess Club is developed by Mykola Yakovliev. Our support page is **[Midnight Chess Club Support](https://github.com/Vegasq/midnight-chess-club-support)**.
 
 ## Information stored on your device
 
@@ -65,4 +65,4 @@ The campaign contains supernatural horror and unsettling narrative themes. Follo
 
 ## Changes and contact
 
-We will update this policy when the game's data practices change and identify the new effective date here. Contact **[chess@mkla.dev](mailto:chess@mkla.dev)** for privacy questions or requests, or visit **[Midnight Chess Club Support](https://vegasq.github.io/midnight-chess-club-support/)**.
+We will update this policy when the game's data practices change and identify the new effective date here. Contact **[chess@mkla.dev](mailto:chess@mkla.dev)** for privacy questions or requests, or visit **[Midnight Chess Club Support](https://github.com/Vegasq/midnight-chess-club-support)**.
